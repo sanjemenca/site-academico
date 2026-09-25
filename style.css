@@ -1,0 +1,8 @@
+body{font-family:Inter,Arial,sans-serif;margin:0;background:#f5f7fb;color:#1b1b1b}
+header{background:linear-gradient(135deg,#0b3c73,#0f6ab5);color:#fff;padding:40px 20px}
+.wrap{max-width:1050px;margin:auto}.hero{display:flex;gap:30px;align-items:center;flex-wrap:wrap}
+.hero img{width:220px;height:220px;border-radius:50%;object-fit:cover;border:5px solid #fff}
+nav{background:#0a2f5c;padding:12px;position:sticky;top:0}nav a{color:#fff;text-decoration:none;margin-right:18px}
+section{padding:45px 20px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:#fff;border-radius:16px;padding:20px;box-shadow:0 4px 14px rgba(0,0,0,.08)}
+footer{background:#0b3c73;color:#fff;padding:20px;text-align:center}
