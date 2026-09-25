@@ -1,1 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Catarina Mendes de Jesus</title>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    font-family:Inter,sans-serif;
+    color:#263238;
+    background:white;
+}
+header{
+    background:#fafcf8;
+    padding:30px 8%;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+nav a{
+    text-decoration:none;
+    color:#1f5aa6;
+    margin-left:24px;
+}
+.hero{
+    display:grid;
+    grid-template-columns:1.2fr 1fr;
+    gap:40px;
+    align-items:center;
+    padding:60px 0;
+}
+h1{
+    font-family:"Cormorant Garamond",serif;
+    font-size:64px;
+    color:#123c6b;
+    margin:0;
+}
+h2{
+    font-family:"Cormorant Garamond",serif;
+    color:#123c6b;
+    font-size:42px;
+}
+section{
+    padding:50px 8%;
+}
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:24px;
+}
+.card{
+    border:1px solid #e5e7eb;
+    border-radius:20px;
+    padding:24px;
+}
+footer{
+    border-top:1px solid #e5e7eb;
+    text-align:center;
+    padding:30px;
+}
+@media(max-width:700px){
+.hero{grid-template-columns:1fr;}
+h1{font-size:46px;}
+nav div:last-child{display:none;}
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+<nav>
+<div><strong>Catarina Mendes de Jesus</strong></div>
+
+<div>
+<a href="#pesquisa">Pesquisa</a>
+<a href="#publicacoes">Publicações</a>
+<a href="#contato">Contato</a>
+</div>
+</nav>
+
+<div class="hero">
+
+<div>
+
+<h1>Catarina Mendes de Jesus</h1>
+
+<p>Professora • Departamento de Matemática • Universidade Federal de Juiz de Fora</p>
+
+<p>Geometria Diferencial • Topologia • Aplicações Estáveis • Singularidades</p>
+
+</div>
+
+<div>
+
+<svg viewBox="0 0 260 180" width="100%">
+<path d="M15 90 C35 30 65 40 95 75 C110 35 125 35 140 75 C170 40 200 30 245 90 C205 70 175 100 130 145 C85 100 55 70 15 90 Z"
+fill="#b7d27c"
+stroke="#222"
+stroke-width="3"/>
+</svg>
+
+</div>
+
+</div>
+
+</header>
+
+<section id="pesquisa">
+
+<h2>Linhas de Pesquisa</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Superfícies e Singularidades</h3>
+<p>Aplicações estáveis e conjuntos singulares.</p>
+</div>
+
+<div class="card">
+<h3>Emparelhamentos de Polígonos</h3>
+<p>Construções topológicas por identificação de arestas.</p>
+</div>
+
+<div class="card">
+<h3>Grafos Topológicos</h3>
+<p>Invariantes e estruturas combinatórias.</p>
+</div>
+
+<div class="card">
+<h3>Topologia de Variedades</h3>
+<p>Resultados e projetos de pesquisa.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="publicacoes">
+
+<h2>Publicações</h2>
+
+<p>Em breve: lista organizada a partir do Currículo Lattes.</p>
+
+</section>
+
+<section id="contato">
+
+<h2>Contato</h2>
+
+<p>cmendesjesus@ufjf.br</p>
+
+</section>
+
+<footer>
+
+© Catarina Mendes de Jesus
+
+</footer>
+
+</body>
+</html>
